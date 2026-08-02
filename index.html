@@ -5,36 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jonard Enmanuel | Software Engineer</title>
   </head>
+
   <body>
-    <h1>Jonard Enmanuel | Software Engineer</h1>
-    <h2>Sobre mi</h2>
-    <h3>Mis objetivos del cuatrimeste</h3>
+    <header>
+      <h1>Jonard Enmanuel | Software Engineer</h1>
+      <nav>
+        <ul>
+          <li><a href="#Sobre-mi">Sobre Mí</a></li>
+          <li><a href="#Contactos">Contactos</a></li>
 
-    <p>
-      Actualmente soy estudiante de la carrera
-      <strong> Ingenieria de Software </strong> y estoy desarrollando mis
-      habilidades en el desarrollo Web.
-    </p>
+          <br />
 
-    <h2>Mi stack en proceso</h2>
-    <ul>
-      <li>HTML 5 & CS3</li>
-      <li>Git & Github</li>
-      <li>JavaScript</li>
-    </ul>
+          <img
+            src="https://img.magnific.com/vector-gratis/ilustracion-dibujos-animados-nerd-dibujados-mano_23-2151219098.jpg?semt=ais_hybrid&w=740&q=80"
+            alt="Personaje con lentes"
+          />
+        </ul>
+      </nav>
+    </header>
 
-    <h2>Mis pasos para hoy</h2>
-    <ol>
-      <li>Escribir HTML</li>
-      <li>Guardar con Git</li>
-      <li>Celebrar mis avances</li>
-    </ol>
+    <main>
+      <section id="Sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Estuante de Ingenieria de Software...</p>
+      </section>
 
-    <p>
-      Visita mi
-      <a href="https://github.com/jonard-dev/hola-mundo.git" target="_blank">
-        Mi perfil de Github</a
-      >
-    </p>
+      <section id="Contactos">
+        <h2>Contactos</h2>
+        <form action="#">
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Escriba su nombre"
+            required
+          />
+
+          <br /><br />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="correo"
+            placeholder="tuemail@ejemplo.com"
+            required
+          />
+
+          <br /><br />
+
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="2"
+            placeholder="Escribe tu mensaje aqui...."
+          ></textarea>
+
+          <br /><br />
+
+          <button type="submit">Enviar Mensaje..</button>
+        </form>
+      </section>
+    </main>
+
+    <br /><br />
+
+    <footer>
+      <p>&copy; 2026 Jonard Enmanuel. Todos los derechos reservados.</p>
+    </footer>
   </body>
 </html>
